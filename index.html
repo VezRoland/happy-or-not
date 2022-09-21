@@ -35,24 +35,24 @@
         }
 
         label::before {
-            content: "No";
+            content: "Yes";
             position: absolute;
             bottom: 0;
             transform: translateY(100%);
             padding-block: 10px;
-            color: indianred;
+            color: green;
         }
 
         input:checked + label::before {
-            content: "Yes";
-            color: green;
+            content: "No";
+            color: indianred;
         }
     </style>
 
     <title>Happy</title>
 </head>
 <body>
-    <input type="checkbox" id="check" checked>
+    <input type="checkbox" id="check">
     <label for="check">Are you happy?</label>
 </body>
 </html>
