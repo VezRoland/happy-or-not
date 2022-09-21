@@ -1,6 +1,6 @@
-# Verzió kezelés
+# Verziókezelés
 
-Helyi repó létrehozása:
+Helyi repo létrehozása:
 
 - git init
 - git status
